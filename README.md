@@ -40,3 +40,36 @@ Cleaned:
     Name   Age   JoinDate
 0  alice  25.0 2022-01-10
 2  clara  35.0 2022-03-15
+
+
+📊 Data Visualization in Python
+This module shows how to use pandas, matplotlib, and seaborn to create simple but powerful visualizations for business analytics.
+
+✅ Covered Topics:
+Bar charts for revenue analysis
+
+Line charts to track user growth
+
+Pie charts for segment distribution
+
+Heatmaps to analyze correlations
+
+🔧 Libraries Used:
+pandas — for data manipulation
+
+matplotlib.pyplot — for plotting
+
+seaborn — for advanced visuals (heatmaps, style)
+
+📁 Files:
+File	Description
+task.md	Task description for this module
+visualization_examples.ipynb	Jupyter Notebook with 4 chart examples
+explanation.md	Commentary and logic behind each graph
+
+📌 Example Use Case:
+📈 Monthly Active Users over time (Line Chart) helps track engagement trends.
+
+🔥 Correlation Matrix (Heatmap) can help reveal which variables are related.
+
+
