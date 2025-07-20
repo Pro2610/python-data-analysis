@@ -26,23 +26,9 @@ Cleaning data is a fundamental step in the data analysis process — it ensures 
 
 ---
 
-## 🧪 Sample Output
-
-```python
-Original:
-     Name     Age     JoinDate
-0   Alice      25    2022-01-10
-1     Bob  thirty    2022/02/15
-2   Clara      35    15-03-2022
-3    None      40          None
-
-Cleaned:
-    Name   Age   JoinDate
-0  alice  25.0 2022-01-10
-2  clara  35.0 2022-03-15
 
 
-📊 Data Visualization in Python
+# 📊 02 — Data Visualization in Python
 This module shows how to use pandas, matplotlib, and seaborn to create simple but powerful visualizations for business analytics.
 
 ✅ Covered Topics:
