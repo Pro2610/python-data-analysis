@@ -63,6 +63,7 @@ explanation.md	Commentary and logic behind each graph
 This module demonstrates the most important first steps in understanding your dataset using Python.
 
 ✅ Covered Topics:
+
 Dataset overview (shape, info, describe)
 
 Missing values and duplicates detection
@@ -74,6 +75,7 @@ Outlier detection with boxplots
 Feature comparison using groupby
 
 🔧 Libraries Used:
+
 pandas — data manipulation
 
 matplotlib.pyplot — basic plotting
