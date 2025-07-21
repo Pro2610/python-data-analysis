@@ -48,10 +48,10 @@ matplotlib.pyplot — for plotting
 seaborn — for advanced visuals (heatmaps, style)
 
 📁 Files:
-File	Description
-task.md	Task description for this module
-visualization_examples.ipynb	Jupyter Notebook with 4 chart examples
-explanation.md	Commentary and logic behind each graph
+
+task.md	   —               Task description for this module
+visualization_examples.ipynb	   —            Jupyter Notebook with 4 chart examples
+explanation.md	  —               Commentary and logic behind each graph
 
 📌 Example Use Case:
 📈 Monthly Active Users over time (Line Chart) helps track engagement trends.
