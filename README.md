@@ -32,6 +32,7 @@ Cleaning data is a fundamental step in the data analysis process — it ensures 
 This module shows how to use pandas, matplotlib, and seaborn to create simple but powerful visualizations for business analytics.
 
 ✅ Covered Topics:
+
 Bar charts for revenue analysis
 
 Line charts to track user growth
@@ -41,6 +42,7 @@ Pie charts for segment distribution
 Heatmaps to analyze correlations
 
 🔧 Libraries Used:
+
 pandas — for data manipulation
 
 matplotlib.pyplot — for plotting
@@ -49,11 +51,16 @@ seaborn — for advanced visuals (heatmaps, style)
 
 📁 Files:
 
-task.md	   —               Task description for this module
-visualization_examples.ipynb	   —            Jupyter Notebook with 4 chart examples
-explanation.md	  —               Commentary and logic behind each graph
+| File                          | Description                                  |
+|-------------------------------|----------------------------------------------|
+| `task.md`                     | Task description for this module             |
+| `visualization_examples.ipynb`| Jupyter Notebook with 4 chart examples       |
+| `explanation.md`              | Commentary and logic behind each graph       |
+ 
+---
 
 📌 Example Use Case:
+
 📈 Monthly Active Users over time (Line Chart) helps track engagement trends.
 
 🔥 Correlation Matrix (Heatmap) can help reveal which variables are related.
