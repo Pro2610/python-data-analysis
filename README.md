@@ -57,7 +57,6 @@ seaborn — for advanced visuals (heatmaps, style)
 | `visualization_examples.ipynb`| Jupyter Notebook with 4 chart examples       |
 | `explanation.md`              | Commentary and logic behind each graph       |
  
----
 
 📌 Example Use Case:
 
@@ -65,6 +64,7 @@ seaborn — for advanced visuals (heatmaps, style)
 
 🔥 Correlation Matrix (Heatmap) can help reveal which variables are related.
 
+---
 
 # 🔍 03 — Exploratory Data Analysis (EDA)
 This module demonstrates the most important first steps in understanding your dataset using Python.
@@ -89,10 +89,14 @@ matplotlib.pyplot — basic plotting
 
 seaborn — advanced visuals (boxplot)
 
-📁 Files:	              
-task.md	  —               Task overview,
-eda_examples.ipynb	—     Code notebook with EDA steps,
-explanation.md	 —        Explanation of each technique used.
+📁 Files:	   
+
+| File                          | Description                                  |
+|-------------------------------|----------------------------------------------|
+| `task.md`                     |  Task overview                               |
+| `eda_examples.ipynb`          |  Code notebook with EDA steps                |
+| `explanation.md`              | Explanation of each technique used           |
+
 
 📌 Example Use Cases:
 
@@ -102,3 +106,4 @@ explanation.md	 —        Explanation of each technique used.
 
 🧮 Analyze group-wise metrics like average salary per department.
 
+---
