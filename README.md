@@ -80,8 +80,7 @@ matplotlib.pyplot — basic plotting
 
 seaborn — advanced visuals (boxplot)
 
-📁 Files:
-# File	                  # Description
+📁 Files:	              
 task.md	  —               Task overview
 eda_examples.ipynb	—     Code notebook with EDA steps
 explanation.md	 —        Explanation of each technique used
