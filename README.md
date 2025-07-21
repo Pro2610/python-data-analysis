@@ -59,3 +59,38 @@ explanation.md	Commentary and logic behind each graph
 🔥 Correlation Matrix (Heatmap) can help reveal which variables are related.
 
 
+# 🔍 03 — Exploratory Data Analysis (EDA)
+This module demonstrates the most important first steps in understanding your dataset using Python.
+
+✅ Covered Topics:
+Dataset overview (shape, info, describe)
+
+Missing values and duplicates detection
+
+Distribution analysis using histograms
+
+Outlier detection with boxplots
+
+Feature comparison using groupby
+
+🔧 Libraries Used:
+pandas — data manipulation
+
+matplotlib.pyplot — basic plotting
+
+seaborn — advanced visuals (boxplot)
+
+📁 Files:
+File	                   Description
+task.md	                 Task overview
+eda_examples.ipynb	     Code notebook with EDA steps
+explanation.md	         Explanation of each technique used
+
+📌 Example Use Cases:
+
+🧩 Quickly identify columns with missing or invalid values.
+
+📦 Detect outliers in salary or age using boxplots.
+
+🧮 Analyze group-wise metrics like average salary per department.
+
