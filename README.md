@@ -104,6 +104,50 @@ seaborn — advanced visuals (boxplot)
 
 📦 Detect outliers in salary or age using boxplots.
 
+# 🧽 04 Advanced Data Cleaning
+This module demonstrates advanced techniques for cleaning messy and inconsistent datasets using Python and pandas.
+
+✅ Covered Topics:
+
+Normalizing categorical data (e.g., .str.strip().lower())
+
+Validating email formats using regex
+
+Parsing inconsistent date formats
+
+Removing outliers using simple rules
+
+Handling duplicates with custom logic
+
+Imputing missing values (mean)
+
+🔧 Libraries Used:
+
+pandas
+
+numpy
+
+re (for regular expressions)
+
 🧮 Analyze group-wise metrics like average salary per department.
 
 ---
+
+📁 Files:	   
+
+| File                          | Description                                  |
+|-------------------------------|----------------------------------------------|
+| `task.md`                     |  Task overview                               |
+| `cleaning_advanced_04.ipynb`  |  Code examples                               |
+| `explanation.md`              | Explanation of each method used              |
+
+
+📌 Example Use Cases:
+
+💡 Standardize customer names and emails for deduplication
+
+🧹 Prepare messy survey or CRM exports before analysis
+
+🔍 Detect and handle suspicious or incorrect values
+
+
