@@ -2,7 +2,6 @@
 
 This notebook demonstrates how to create and transform features for better analysis and modeling.
 
----
 
 ## 1. 📅 Extract Date Features
 
@@ -15,7 +14,7 @@ data['weekday'] = data['date'].dt.day_name()
 
 This is useful for seasonal trend analysis.
 
-##2. 🔤 One-Hot Encoding
+## 2. 🔤 One-Hot Encoding
 
 Convert categorical variables into dummy/indicator variables:
 
