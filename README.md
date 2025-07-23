@@ -148,6 +148,46 @@ re (for regular expressions)
 
 🧹 Prepare messy survey or CRM exports before analysis
 
-🔍 Detect and handle suspicious or incorrect values
+# 🛠 05 Feature Engineering in Python
+This module demonstrates how to create new features and transform existing ones for better analysis and modeling.
+
+✅ Covered Topics:
+
+Extracting date components (year, month, weekday)
+
+One-hot encoding for categorical variables
+
+Binning continuous variables
+
+Log transformations to reduce skewness
+
+Scaling numeric features using:
+
+StandardScaler (mean=0, std=1)
+
+MinMaxScaler (range [0,1])
+
+🔧 Libraries Used:
+
+pandas
+
+numpy
+
+sklearn.preprocessing
+
+📁 Files:
+
+| File                          | Description                                  |
+|-------------------------------|----------------------------------------------|
+| `task.md`                     | Overview of feature engineering objectives   |
+| `feature_engineering.ipynb`   | Notebook with step-by-step examples          |
+| `explanation.md`              | Explanation of each technique                |
 
 
+📌 Example Use Cases:
+
+📅 Extract time-based features for seasonality analysis
+
+🔤 Encode categories for machine learning models
+
+📈 Normalize and scale numeric features for better performance in ML algorithms
