@@ -16,6 +16,7 @@ data['weekday'] = data['date'].dt.day_name()
 This is useful for seasonal trend analysis.
 
 ## 2. 🔤 One-Hot Encoding
+
 Convert categorical variables into dummy/indicator variables:
 
 python
@@ -25,6 +26,7 @@ pd.get_dummies(data, columns=['category', 'weekday'], drop_first=True)
 drop_first=True avoids multicollinearity.
 
 ## 3. 🧱 Binning
+
 Group continuous variables into intervals:
 
 python
@@ -34,6 +36,7 @@ pd.cut(data['sales'], bins=[0,150,300,500], labels=['Low','Medium','High'])
 Helps in simplifying data and reducing noise.
 
 ## 4. 🔍 Log Transformation
+
 Reduce skewness in numeric variables:
 
 python
@@ -43,6 +46,7 @@ np.log1p(data['sales'])
 log1p handles zeros safely.
 
 ## 5. 📏 Scaling Features
+
 Standardize and normalize features for modeling:
 
 python
