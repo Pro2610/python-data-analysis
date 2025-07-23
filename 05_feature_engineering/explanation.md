@@ -15,7 +15,7 @@ data['weekday'] = data['date'].dt.day_name()
 
 This is useful for seasonal trend analysis.
 
-## 2. 🔤 One-Hot Encoding
+##2. 🔤 One-Hot Encoding
 
 Convert categorical variables into dummy/indicator variables:
 
