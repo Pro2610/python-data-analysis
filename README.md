@@ -191,3 +191,46 @@ sklearn.preprocessing
 🔤 Encode categories for machine learning models
 
 📈 Normalize and scale numeric features for better performance in ML algorithms
+
+# 🧪 06 A/B Testing Simulation in Python
+This module demonstrates how to simulate and analyze an A/B test using Python, calculate statistical significance, and visualize the results.
+
+✅ Covered Topics:
+
+Generating synthetic data for control (A) and test (B) groups
+
+Calculating key metrics:
+
+Conversion Rate
+
+ARPU (Average Revenue Per User)
+
+Performing Z-test for proportions
+
+Visualizing results with bar charts
+
+Interpreting statistical results and making business decisions
+
+🔧 Libraries Used:
+
+pandas
+
+numpy
+
+matplotlib
+
+scipy.stats
+
+📁 Files:
+
+| File                          | Description                                                        |
+|-------------------------------|--------------------------------------------------------------------|
+| `task.md`                     | Overview of the A/B testing simulation                             |
+| `ab_testing.ipynb`            | Jupyter Notebook with data simulation, analysis, and visualization |
+| `explanation.md`              | Explanation of the process and interpretation                      |
+
+📌 Example Insights:
+
+✅ If p-value < 0.05, the Test group performs significantly better than the Control group.
+✅ Always analyze both conversion rate and revenue for business impact.
+
