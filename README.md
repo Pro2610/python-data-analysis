@@ -234,3 +234,44 @@ scipy.stats
 ✅ If p-value < 0.05, the Test group performs significantly better than the Control group.
 ✅ Always analyze both conversion rate and revenue for business impact.
 
+# 📑 07 Data Reporting in Python
+This module demonstrates how to create automated Excel and PDF reports from data analysis using Python.
+
+✅ Covered Topics:
+
+Creating summary tables and visualizations
+
+Exporting data and metrics to Excel (multiple sheets)
+
+Generating PDF reports with:
+
+Text elements
+
+Embedded charts
+
+Automating reporting workflows
+
+🔧 Libraries Used:
+
+pandas — for data manipulation and Excel export
+
+matplotlib — for plotting charts
+
+openpyxl — for Excel formatting
+
+reportlab — for generating PDFs
+
+📁 Files:
+
+| File                          | Description                                          |              
+|-------------------------------|------------------------------------------------------|
+| `task.md`                     | Overview of the reporting task                       |
+| `data_reporting.ipynb`        | Notebook with code to generate Excel and PDF reports |
+| `explanation.md`              | Step-by-step explanation of each process             |
+
+📌 Example Use Cases:
+
+✅ Monthly business reports for management
+✅ Automated KPI dashboards exported to Excel and PDF
+✅ Marketing performance summaries with charts
+
