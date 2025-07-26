@@ -275,3 +275,57 @@ reportlab — for generating PDFs
 ✅ Automated KPI dashboards exported to Excel and PDF
 ✅ Marketing performance summaries with charts
 
+# 📊 08 Streamlit Sales Dashboard
+This module demonstrates how to build an interactive dashboard in Python using Streamlit for sales analysis.
+
+✅ Features:
+
+Interactive category filter (selectbox)
+
+KPI metrics:
+
+Total Sales
+
+Average Sales
+
+Dynamic data table
+
+Sales trend visualization (line chart)
+
+🔧 Libraries Used:
+
+streamlit — for building the dashboard
+
+pandas — for data manipulation
+
+matplotlib — for visualization
+
+numpy — for synthetic data generation
+
+📁 Files:
+
+| File                          | Description                                       |              
+|-------------------------------|---------------------------------------------------|
+| `task.md`                     | Overview of the dashboard task                    |
+| `dashboard_app.py`            | Streamlit app code                                |
+| `explanation.md`              | Explanation of each component in the app          |
+
+▶️ How to Run:
+
+Install dependencies:
+
+pip install streamlit pandas matplotlib numpy
+
+Run the app:
+
+streamlit run dashboard_app.py
+
+📌 Why Use Streamlit?
+
+Fast prototyping for data apps
+
+Interactive filters and charts without HTML/CSS
+
+Ideal for sharing insights with teams
+
+
