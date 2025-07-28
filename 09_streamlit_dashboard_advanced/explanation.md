@@ -12,7 +12,7 @@ st.set_page_config(page_title="Advanced Sales Dashboard", layout="wide")
 
 Sets title and wide layout for a better dashboard experience.
 
-### 2. Sidebar Navigation
+### 2. **Sidebar Navigation**
 
 We created multiple pages:
 
