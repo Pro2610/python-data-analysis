@@ -12,7 +12,7 @@ st.set_page_config(page_title="Advanced Sales Dashboard", layout="wide")
 
 Sets title and wide layout for a better dashboard experience.
 
-### 2. **Sidebar Navigation**
+2. Sidebar Navigation
 
 We created multiple pages:
 
@@ -24,7 +24,7 @@ Dashboard: Shows charts and KPIs
 
 page = st.sidebar.radio("Go to:", ["Home", "Dashboard", "Upload Data"])
 
-### 3. Data Handling
+3. Data Handling
 
 By default, we generate synthetic data.
 
@@ -32,13 +32,13 @@ Users can upload their own dataset on the "Upload Data" page.
 
 uploaded_file = st.file_uploader("Upload CSV", type=["csv"])
 
-### 4. Filters
+4. Filters
 
 We use selectbox for category filtering:
 
 selected_category = st.sidebar.selectbox("Filter by Category:", ["All"] + categories)
 
-### 5. KPIs
+5. KPIs
 
 We calculate and display key metrics:
 
@@ -52,7 +52,7 @@ Displayed using:
 
 col1.metric("Total Sales", f"${total_sales:,.0f}")
 
-### 6. Charts
+6. Charts
 
 Line Chart: Sales by month
 
