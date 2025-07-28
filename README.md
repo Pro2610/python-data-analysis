@@ -328,4 +328,70 @@ Interactive filters and charts without HTML/CSS
 
 Ideal for sharing insights with teams
 
+# 📊 09 Advanced Streamlit Dashboard
+This module demonstrates how to build a multi-page interactive dashboard using Streamlit with advanced features such as navigation, data upload, KPIs, and multiple charts.
+
+✅ Features:
+
+Sidebar navigation with multiple pages:
+
+Home — Intro page
+
+Upload Data — Upload your own CSV
+
+Dashboard — Interactive analysis
+
+Dynamic KPIs:
+
+Total Sales
+
+Average Sales
+
+Transactions count
+
+Charts:
+
+Line chart (Sales trend)
+
+Bar chart (Sales by category)
+
+Pie chart (Category distribution)
+
+Upload feature to analyze custom datasets
+
+🔧 Libraries Used:
+
+streamlit — web app framework
+
+pandas — data manipulation
+
+matplotlib — visualization
+
+numpy — synthetic data generation
+
+📁 Files:
+
+| File                          | Description                                       |              
+|-------------------------------|---------------------------------------------------|
+| `task.md`                     | Overview of the dashboard projec                  |
+| `dashboard_app_advanced.py`   | Full Streamlit app code                           |
+| `explanation.md`              | Explanation of components and logic               |
+
+▶️ How to Run:
+
+Install dependencies:
+
+pip install streamlit pandas matplotlib numpy
+
+Run the app:
+
+streamlit run dashboard_app_advanced.py
+
+✅ Why Use This Template?
+
+Professional dashboard with navigation
+
+Easy customization for any dataset
+
+Perfect for data analytics portfolios
 
