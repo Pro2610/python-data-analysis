@@ -395,3 +395,75 @@ Easy customization for any dataset
 
 Perfect for data analytics portfolios
 
+
+# 🧪 10 A/B Test Analyzer in Streamlit
+This module demonstrates how to build an interactive dashboard in Streamlit to analyze A/B test results.
+
+✅ Features:
+
+Upload CSV with A/B test data
+
+Calculate key metrics:
+
+Conversion Rate
+
+ARPU (Average Revenue Per User)
+
+Perform Z-test for statistical significance
+
+Visualize:
+
+Conversion Rate by group
+
+ARPU by group
+
+Display interpretation (significant or not)
+
+🔧 Required CSV Format:
+
+Columns:
+
+group → (e.g., A or B)
+
+converted → (0 or 1)
+
+revenue → numeric
+
+🔧 Libraries Used:
+
+streamlit — dashboard interface
+
+pandas — data manipulation
+
+numpy — calculations
+
+matplotlib — charts
+
+scipy — statistical testing
+
+📁 Files:
+
+| File                          | Description                                       |              
+|-------------------------------|---------------------------------------------------|
+| `task.md`                     | Overview of the A/B Test Analyzer project         |
+| `ab_test_app.py`              | Streamlit app code                                |
+| `explanation.md`              | Explanation of components and logic               |
+
+▶️ How to Run:
+
+Install dependencies:
+
+pip install streamlit pandas matplotlib numpy scip
+
+Run the app:
+
+streamlit run ab_test_app.py
+
+✅ Why Use This Tool?
+
+Quickly validate A/B test results
+
+No coding required — just upload CSV
+
+Immediate significance testing and visualization
+
