@@ -467,3 +467,61 @@ No coding required — just upload CSV
 
 Immediate significance testing and visualization
 
+# 📧 11 Automated Email Reports in Python
+This module demonstrates how to generate and send automated email reports with KPIs, charts, and attachments using Python.
+
+✅ Features:
+
+Generate a simple sales report (Total Sales, Average Sales)
+
+Create and save a chart using matplotlib
+
+Compose an HTML email
+
+Attach chart (and other files if needed)
+
+Send via SMTP (secure connection)
+
+🔧 Libraries Used:
+
+pandas — data handling
+
+matplotlib — chart generation
+
+smtplib — sending emails via SMTP
+
+email.mime — formatting email and attachments
+
+ssl — secure connection
+
+📁 Files:
+
+| File                          | Description                                       |              
+|-------------------------------|---------------------------------------------------|
+| `task.md`                     | 	Overview of the email reporting process          |
+| `email_report.py`             | Python script to generate and send reports        |
+| `explanation.md`              | Explanation of steps and logic                    |
+
+▶️ How to Use:
+
+Install dependencies:
+
+pip install pandas matplotlib
+
+Configure your email credentials:
+
+Use App Password for Gmail (or other secure method)
+
+Replace sender_email, receiver_email, password in the script
+
+Run the script:
+
+python email_report.py
+
+✅ Why Use This Script?
+
+Automates repetitive email reporting tasks
+
+Great for daily/weekly KPI updates
+
+Can be extended for PDF reports, multiple attachments, or cron jobs
