@@ -525,3 +525,60 @@ Automates repetitive email reporting tasks
 Great for daily/weekly KPI updates
 
 Can be extended for PDF reports, multiple attachments, or cron jobs
+
+# 📄 12 Automated PDF Reports in Python
+This module demonstrates how to generate a professional PDF report with KPIs, tables, and charts using Python.
+
+✅ Features:
+
+Create a summary report from data (Total & Average Sales)
+
+Generate and insert charts using matplotlib
+
+Build a PDF with:
+
+Title and date
+
+KPIs
+
+Data table
+
+Chart image
+
+Save as PDF file
+
+🔧 Libraries Used:
+
+pandas — data manipulation
+
+matplotlib — chart generation
+
+fpdf — PDF creation
+
+| File                          | Description                                       |              
+|-------------------------------|---------------------------------------------------|
+| `task.md`                     | 	Overview of the PDF report generation            |
+| `pdf_report.py`               | Python script to generate PDF reports             |
+| `explanation.md`              | Step-by-step explanation of the logic             |
+
+▶️ How to Use:
+
+Install dependencies:
+
+pip install pandas matplotlib fpdf
+
+Run the script:
+
+python pdf_report.py
+
+The report will be saved as:
+
+sales_report.pdf
+
+✅ Why Use This Script?
+
+Automates PDF report generation
+
+Perfect for monthly or weekly KPI reports
+
+Easily extendable for multiple charts and pages
