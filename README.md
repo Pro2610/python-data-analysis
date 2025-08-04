@@ -555,6 +555,8 @@ matplotlib — chart generation
 
 fpdf — PDF creation
 
+📁 Files:
+
 | File                          | Description                                       |              
 |-------------------------------|---------------------------------------------------|
 | `task.md`                     | 	Overview of the PDF report generation            |
@@ -582,3 +584,76 @@ Automates PDF report generation
 Perfect for monthly or weekly KPI reports
 
 Easily extendable for multiple charts and pages
+
+# 📧 13 Automated PDF Report + Email Integration
+This module combines PDF report generation with email automation to send professional reports to recipients automatically.
+
+✅ Features:
+
+Generate PDF report including:
+
+Title and date
+
+KPIs (Total & Average Sales)
+
+Data table
+
+Chart
+
+Compose email with:
+
+HTML summary
+
+Attached PDF report
+
+Send via SMTP (secure)
+
+🔧 Libraries Used:
+
+pandas — data manipulation
+
+matplotlib — chart creation
+
+fpdf — PDF generation
+
+smtplib, email.mime — email handling
+
+ssl — secure SMTP connection
+
+📁 Files:
+
+| File                          | Description                                       |              
+|-------------------------------|---------------------------------------------------|
+| `task.md`                     | 	Overview of the PDF + Email automation process   |
+| `pdf_email_report.py`         | Python script to generate and email PDF reports   |
+| `explanation.md`              | Step-by-step explanation of the process           |
+
+▶️ How to Use:
+
+Install dependencies:
+
+pip install pandas matplotlib fpdf
+
+Configure email credentials:
+
+Use App Password for Gmail
+
+Update sender_email, receiver_email, password in the script
+
+Run the script:
+
+python pdf_email_report.py
+
+The email will include:
+
+HTML summary (Total & Average Sales)
+
+Attached PDF report
+
+✅ Why Use This Script?
+
+Automates report creation and delivery
+
+Great for daily/weekly KPI emails
+
+Easy to customize for your business needs
