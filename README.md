@@ -657,3 +657,71 @@ Automates report creation and delivery
 Great for daily/weekly KPI emails
 
 Easy to customize for your business needs
+
+# ⏰ 14 Scheduled Automation for Reports
+This module demonstrates how to automate the execution of a report generation and email sending script using Python scheduling.
+
+✅ Features:
+
+Automatically run the PDF + Email script on schedule
+
+Flexible scheduling options:
+
+Every X minutes (for testing)
+
+Specific time daily (e.g., 09:00)
+
+Logs job execution in the console
+
+Ready for integration with:
+
+Cron (Linux)
+
+Task Scheduler (Windows)
+
+🔧 Libraries Used:
+
+schedule — for scheduling tasks
+
+subprocess — to execute another Python script
+
+time, datetime — for loops and logging
+
+📂 Files:
+
+| File                          | Description                                       |              
+|-------------------------------|---------------------------------------------------|
+| `task.md`                     | 	Overview of the scheduling task                  |
+| `scheduled_report.py`         | Python script for scheduled execution             |
+| `explanation.md`              | Explanation of logic and options                  |
+
+▶️ How to Use:
+
+Install schedule:
+
+pip install schedule
+
+Ensure pdf_email_report.py is in the same folder (from previous block).
+
+Open scheduled_report.py and choose scheduling option:
+
+Uncomment:
+
+# schedule.every(10).minutes.do(run_report)  # for testing
+# schedule.every().day.at("09:00").do(run_report)  # for daily run
+
+Run the scheduler:
+
+python scheduled_report.py
+
+✅ Why Use This?
+
+Simple Python-based scheduling
+
+Great for automating daily business reports
+
+Can scale to production workflows with cron or Airflow
+
+
+
+
