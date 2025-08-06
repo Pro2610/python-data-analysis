@@ -722,6 +722,68 @@ Great for automating daily business reports
 
 Can scale to production workflows with cron or Airflow
 
+# 🌐 15 Airflow ETL Pipeline (Intro)
+This module introduces Apache Airflow for building automated ETL workflows.
 
+✅ Features:
+
+Create a DAG (Directed Acyclic Graph) in Airflow
+
+Build a simple ETL pipeline:
+
+Extract: Load data from CSV
+
+Transform: Add calculated column
+
+Load: Save final dataset to CSV
+
+Schedule the DAG to run daily
+
+Visualize task execution in Airflow UI
+
+🔧 Tools & Libraries:
+
+Apache Airflow
+
+pandas — for data transformation
+
+PythonOperator — for Python tasks
+
+▶️ How to Run:
+
+Install Airflow:
+
+pip install apache-airflow
+
+Start Airflow:
+
+airflow standalone
+
+Place airflow_dag.py in your Airflow dags/ folder:
+
+/opt/airflow/dags/
+Create folders for data:
+
+/opt/airflow/dags/data
+/opt/airflow/dags/temp
+
+Add a sample source_data.csv:
+
+Month,Revenue
+Jan,1000
+Feb,1500
+Mar,1200
+Apr,1700
+May,2000
+
+Activate the DAG in Airflow UI and trigger it manually or wait for the schedule.
+
+✅ Why Use Airflow?
+
+Orchestrate complex pipelines
+
+Handle dependencies, retries, and scheduling
+
+Scales for production ETL workflows
 
 
