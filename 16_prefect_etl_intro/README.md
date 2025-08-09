@@ -45,6 +45,7 @@ Feb,1500
 Mar,1200
 Apr,1700
 May,2000
+
 Run the pipeline
 
 python etl_prefect_pipeline.py
