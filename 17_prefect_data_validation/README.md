@@ -21,6 +21,7 @@ A production-style ETL flow with **data quality checks** using Prefect 2.0.
 
 pip install prefect pandas
 python prefect_data_validation.py
+
 Place input at data/source_data.csv:
 
 Month,Revenue
