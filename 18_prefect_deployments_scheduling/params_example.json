@@ -1,0 +1,12 @@
+{
+  "tax_rate": 1.2,
+  "input_path": "data/source_data.csv",
+  "output_path": "data/final_data.csv",
+  "required_columns": [
+    "Month",
+    "Revenue"
+  ],
+  "numeric_nonneg_cols": [
+    "Revenue"
+  ]
+}
