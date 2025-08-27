@@ -29,6 +29,7 @@ Cleaning data is a fundamental step in the data analysis process — it ensures 
 
 
 # 📊 02 — Data Visualization in Python
+
 This module shows how to use pandas, matplotlib, and seaborn to create simple but powerful visualizations for business analytics.
 
 ✅ Covered Topics:
@@ -105,6 +106,7 @@ seaborn — advanced visuals (boxplot)
 📦 Detect outliers in salary or age using boxplots.
 
 # 🧽 04 Advanced Data Cleaning
+
 This module demonstrates advanced techniques for cleaning messy and inconsistent datasets using Python and pandas.
 
 ✅ Covered Topics:
